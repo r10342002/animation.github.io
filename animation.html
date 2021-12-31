@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Parallax vertical</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/shadow.css">
+
+
+    <style>
+        #div1, #div6 {
+            background-image: url("https://res.cloudinary.com/dvrqzjv98/image/upload/v1640911286/olympic_vymgcj.jpg");
+        }
+
+        #div2 {
+            background-image: url("https://res.cloudinary.com/dvrqzjv98/image/upload/v1640910556/tennis2_ep6hal.jpg");
+        }
+        
+        #div3 {
+            background-image: url("https://res.cloudinary.com/dvrqzjv98/image/upload/v1640912319/3234-1_ttrp7t.jpg");
+        }
+        #div4 {
+            background-image: url("https://res.cloudinary.com/dvrqzjv98/image/upload/v1640912729/img_1138-x2_na9n4m.jpg");
+        }
+        #div5 {
+            background-image: url("assets/sky_1.jpg");
+        }
+        
+        #div1, #div2, #div3, #div4, #div5, #div6{
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div style="background-image:https://res.cloudinary.com/dvrqzjv98/image/upload/v1640911286/olympic_vymgcj.jpg ;"></div>
+    <div id="div1" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-top=0 data-top2=70 data-left=25 data-left2=35 data-width=20 data-width2=30 src="" style="position:absolute;width:20%;top:15%;left:25%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-top=20 data-top2=80 data-left=50 data-left2=40 data-width=30 data-width2=40 src="" style="position:absolute;width:30%;top:20%;left:50%;">
+    </div>
+    <div style="background-color:white;height:100vh"></div>
+
+    <div id="div2" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-top=0 data-top2=65 data-left=0 data-left2=45 data-width=20 data-width2=30 src="https://res.cloudinary.com/dvrqzjv98/image/upload/v1640911817/%E7%B6%B2%E7%90%83_vycfpx.png" style="position:absolute;width:20%;top:0%;left:0%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-top=15 data-top2=80 data-left=15 data-left2=50 data-width=30 data-width2=40 src="assets/sasuke2.png" style="position:absolute;width:30%;top:15%;left:15%;">
+    </div>
+    <div style="background-color:white;height:100vh"></div>
+
+
+    <div id="div3" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=100 data-left2=60 src="" style="position:absolute;width:20%;top:50%;left:100%;">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=30 src="https://res.cloudinary.com/dvrqzjv98/image/upload/v1640911816/%E8%8E%8A%E6%99%BA%E6%B7%B5_cocuby.png" style="position:absolute;width:30%;top:50%;left:0%;">
+    </div>
+    <div style="background-color:white;height:100vh"></div>
+    
+    
+    <div id="div4" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=100 data-left2=20 data-top=20 data-top2=70 src="https://res.cloudinary.com/dvrqzjv98/image/upload/v1640912409/%E5%B0%84%E7%AE%AD_k1uwdl.png" style="position:absolute;width:40%;top:15%;left:20%;">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=30 data-top=25  data-top2=75  src="" style="position:absolute;width:30%;top:25%;left:0%;">
+    </div>
+    <div style="background-color:white;height:100vh"></div>
+
+    
+    <div id="div5" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=-10 data-left2=0 data-top=-10  data-top2=40  src="" style="position:absolute;width:150vw;top:-10%;left:-10%;filter: grayscale(60%)">
+        <img class="scrollable dropshadow1" data-left=-10 data-left2=-20 data-top=0  data-top2=50  src="https://res.cloudinary.com/dvrqzjv98/image/upload/v1640911819/%E9%9E%8D%E9%A6%AC_n21bwt.png" style="position:absolute;width:150vw;top:-10%;left:-10%;">
+        <img class="scrollable dropshadow1" data-left=-10 data-left2=-20 data-top=10 data-top2=60 src="" style="position:absolute;width:100vw;top:10%;left:-10%;">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=30 data-top=25  data-top2=75  src="https://res.cloudinary.com/dvrqzjv98/image/upload/v1640911819/%E9%9E%8D%E9%A6%AC_n21bwt.png" style="position:absolute;width:30%;top:25%;left:0%;">
+    </div>
+    <div style="background-color:white;height:200vh"></div>
+
+    <div id="div6" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-top=30 data-top2=80 src="" style="position:absolute;width:20%;top:30%;left:25%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-top=25 data-top2=75 src="" style="position:absolute;width:30%;top:25%;left:50%;">
+    </div>
+    <div style="background-color:white;height:100vh"></div>
+
+
+
+    <script>
+        $(document).ready(function() {
+            var winh = $(window).height();
+            $(window).scroll(function() {
+                var scrolled = $(window).scrollTop();
+                $(".scrollable").each(function() {
+                    var parent_pos = $(this).parent().offset().top;
+                    var next_pos = parent_pos + $(this).parent().height();
+                    var parent_scrolled = scrolled - $(this).parent().offset().top;
+                    if (parent_scrolled > 0 && scrolled < next_pos - winh) {
+
+                        if ($(this).attr("data-left")) {
+                            $(this).css('left', (($(this).data('left2') - $(this).data('left')) * parent_scrolled / winh + $(this).data('left')) + '%');
+                        }
+                        if ($(this).attr("data-top")) {
+                            $(this).css('top', (($(this).data('top2') - $(this).data('top')) * parent_scrolled / winh + $(this).data('top')) + '%');
+                        }
+                        if ($(this).attr("data-width")) {
+                            $(this).css('width', (($(this).data('width2') - $(this).data('width')) * parent_scrolled / winh + $(this).data('width')) + '%');
+                        }
+                    }
+                });
+            });//end of win scroll
+        });
+    </script>
+</body>
+
+</html>
